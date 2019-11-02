@@ -11,10 +11,8 @@ def radius():
             restart = input("Would you like to calculate another radius?: \n(YES/Y) or (NO/N) :")
             if restart.upper() == "YES" or restart.upper() == "Y":
                 radius()
-            if restart.upper() == "NO" or restart.upper() == "YES":
+            if restart.upper() == "NO" or restart.upper() == "N":
                 print("Script terminating. Goodbye.")
-            if restart.upper() != "Y" or restart.upper() != "N":
-                restart()
         restart()
     except ValueError:
         print("Please enter radius in numbers only !")
