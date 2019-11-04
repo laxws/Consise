@@ -1,5 +1,5 @@
 def harmonic (n):
-    # Compute the sum of 1/k for k =1 to n.
+    # Compute the sum of 1/k for k = 1 to n.
     total = 0
     for k in range (1, n + 1):
         total += 1 / k

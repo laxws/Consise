@@ -8,10 +8,10 @@ def radius():
         print(f"The area of a circle with radius {r} is {area}")
         
         def restart():
-            restart = input("Would you like to calculate another radius?: \n(YES/Y) or (NO/N) :")
-            if restart.upper() == "YES" or restart.upper() == "Y":
+            restart = input("Would you like to calculate another radius?: \n(YES = Y) or (NO = N):")
+            if restart.upper() == "Y":
                 radius()
-            if restart.upper() == "NO" or restart.upper() == "N":
+            if restart.upper() == "N":
                 print("Script terminating. Goodbye.")
         restart()
     except ValueError:
